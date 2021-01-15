@@ -1,15 +1,49 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <nav class="site-nav navbar navbar-expand-md">
+    <div class="collapse navbar-collapse" id="navbar-content">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <router-link class="nav-link" to="/"><span>Intro</span> </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/welcome"
+            ><span>Home</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/assignment-2"
+            ><span>Assignment 2</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/assignment-3"
+            ><span>Assignment 3</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/assignment-4"
+            ><span>Assignment 4</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/assignment-5"
+            ><span>Assignment 5</span>
+          </router-link>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <router-view class="container" />
 </template>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Raleway:ital,wght@0,400;0,500;1,500&display=swap");
-$primary: #8132a8;
-$font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
-  sans-serif;
+@import "./variables.scss";
 @import "~bootstrap/scss/bootstrap";
+body {
+  background-image: url("./assets/img/mtg_selesnya_bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: $main-bg-color;
+}
 </style>
