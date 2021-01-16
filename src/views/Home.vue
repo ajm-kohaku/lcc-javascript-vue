@@ -2,7 +2,7 @@
   <div>
     <h1>Hello &amp; Welcome</h1>
     <p>
-      This little sub-domain recreates the course work I did for a javacript
+      This little sub-domain recreates the course work I did for a javascript
       class I took at Lansing Community College for Spring 2019. This site is
       built on vuejs so I'll only be able to recreate the spirit of the
       assignments and not necessarily the code as it was originally written. For
@@ -34,7 +34,7 @@
         <div>
           Use <code>document.write()</code> to write a portion of the page.
           Doing that doesn't really make sense in a vue app so I created a
-          component to miminc the behavior instead.
+          component to mimic the behavior instead.
         </div>
       </li>
       <li>
@@ -105,7 +105,7 @@
       <li>
         <h4>Assignment 9</h4>
         <div>
-          This assignment is in two parts. Part one is creating an accordian.
+          This assignment is in two parts. Part one is creating an accordion.
           Part two creates a modal.
         </div>
       </li>
