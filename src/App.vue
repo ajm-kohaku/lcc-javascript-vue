@@ -30,6 +30,11 @@
             ><span>Assignment 5</span>
           </router-link>
         </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/assignment-6"
+            ><span>Assignment 6</span>
+          </router-link>
+        </li>
       </ul>
     </div>
   </nav>
@@ -45,5 +50,17 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-color: $main-bg-color;
+}
+
+.site-nav {
+  background-color: $secondary-accent;
+}
+
+a {
+  color: $main-bg-color;
+}
+
+a:hover {
+  color: $secondary-color;
 }
 </style>

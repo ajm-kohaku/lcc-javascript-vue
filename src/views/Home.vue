@@ -63,11 +63,27 @@
       </li>
       <li>
         <h4>Assignment 5</h4>
-        <div>This assignment had to do with conditionals using <code>if/else/else if</code></div>
+        <div>
+          This assignment had to do with conditionals using
+          <code>if/else/else if</code>
+        </div>
+        <div>
+          In addition to the grading rubric conditional, I used vue conditionals
+          to display text.
+        </div>
       </li>
       <li>
         <h4>Assignment 6</h4>
-        <div><code>for loop</code> was the name of the game here.</div>
+        <div>
+          This incorporated <code>for loop</code> and adding classes through
+          javascript
+        </div>
+        <div>
+          Oh boy, lots of changes on this one. I did this one by using
+          <code>v-for</code> on a list object and adding <code>:class</code> to
+          assign classes on the fly. I also played around with the
+          <code>mounted()</code> function to add a class on load and assign 2 list items.
+        </div>
       </li>
       <li>
         <h4>Assignment 7</h4>
