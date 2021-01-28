@@ -42,8 +42,7 @@
 </template>
 
 <style lang="scss">
-@import "./variables.scss";
-@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap.scss";
 body {
   background-image: url("./assets/img/mtg_selesnya_bg.png");
   background-repeat: no-repeat;
@@ -56,11 +55,26 @@ body {
   background-color: $secondary-accent;
 }
 
-a {
+.nav-link {
   color: $main-bg-color;
 }
 
-a:hover {
+.nav-link:hover {
   color: $secondary-color;
+}
+
+.app-page-link {
+  color: $primary-accent;
+}
+
+.app-page-link, .page-link:visited {
+  color: $secondary-accent;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.app-page-link:hover {
+  color: $primary-color;
+  text-decoration: none;
 }
 </style>

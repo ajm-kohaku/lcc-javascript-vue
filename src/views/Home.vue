@@ -11,6 +11,7 @@
         href="https://github.com/ajm-kohaku/CITW165-javascript"
         target="_blank"
         rel="noopener noreferrer"
+        class="app-page-link"
         >github</a
       >
       account.

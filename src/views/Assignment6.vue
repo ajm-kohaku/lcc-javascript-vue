@@ -33,7 +33,7 @@ export default {
       let list = this.listItems;
       list.forEach((item) => (item.class = " subarashii"));
       list.push({ game: "Alternity", class: "custom-added-item" });
-      list.unshift({game:"Shadowrunner", class:"custom-added-item"})
+      list.unshift({ game: "Shadowrunner", class: "custom-added-item" });
     },
   },
   mounted() {

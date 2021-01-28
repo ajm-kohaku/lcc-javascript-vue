@@ -86,4 +86,7 @@ export default {
 </script>
 
 <style lang="scss">
+label {
+  color: black;
+}
 </style>
