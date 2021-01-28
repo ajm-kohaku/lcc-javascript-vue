@@ -1,28 +1,56 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <nav class="site-nav navbar navbar-expand-md">
+      <div class="collapse navbar-collapse" id="navbar-content">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <router-link class="nav-link" to="/"
+              ><span>Intro</span>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/welcome"
+              ><span>Home</span>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/assignment-2"
+              ><span>Assignment 2</span>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/assignment-3"
+              ><span>Assignment 3</span>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/assignment-4"
+              ><span>Assignment 4</span>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/assignment-5"
+              ><span>Assignment 5</span>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/assignment-6"
+              ><span>Assignment 6</span>
+            </router-link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <router-view class="container" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import "~bootstrap/scss/bootstrap.scss";
 </style>
