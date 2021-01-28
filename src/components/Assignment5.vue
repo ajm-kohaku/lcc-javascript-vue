@@ -86,6 +86,6 @@ export default {
 
 <style lang="scss">
 label {
-  color: black;
+  color: black !important;
 }
 </style> 
