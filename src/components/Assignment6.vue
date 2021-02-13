@@ -42,7 +42,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 #list-container {
   background-color: #000;
   font-family: "Oswald", "Futura", sans-serif;
