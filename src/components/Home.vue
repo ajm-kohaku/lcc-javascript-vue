@@ -83,15 +83,18 @@
           Oh boy, lots of changes on this one. I did this one by using
           <code>v-for</code> on a list object and adding <code>:class</code> to
           assign classes on the fly. I also played around with the
-          <code>mounted()</code> function to add a class on load and assign 2 list items.
+          <code>mounted()</code> function to add a class on load and assign 2
+          list items.
         </div>
       </li>
       <li>
         <h4>Assignment 7</h4>
         <div>
           We were introduced to <code>document.addEventListener()</code> in this
-          assignment. Due to the way vuejs works, I modified the js to fit the
-          way vuejs does events
+          assignment. The original events used were: click, input, and onkeyup.
+          In vue, I used the vue <code>@click</code> directive to trigger the
+          click event for the record/play button. And <code>v-model</code> for
+          the input and onkeyup events to two-way bind an input to a div tag.
         </div>
       </li>
       <li>
