@@ -31,9 +31,9 @@
 
 <style scoped lang="scss">
 blockquote {
-  border-left: 2px solid $primary-accent;
+  border-left: 0.125em solid $primary-accent;
   padding-left: 1em;
-  text-indent: 2px;
+  text-indent: 0.125em;
   font-style: italic;
   font-size: 1em;
 }

@@ -24,7 +24,7 @@ export default {
         eventRate: 250,
         earlyBirdDiscount: 20,
       },
-      offerExpires: null
+      offerExpires: null,
     };
   },
   created() {
@@ -68,7 +68,7 @@ export default {
       let date = weekFromToday.getDate();
       let month = monthNames[weekFromToday.getMonth()];
       let year = weekFromToday.getFullYear();
-      let  expiryMsg = "Offer expires next ";
+      let expiryMsg = "Offer expires next ";
       expiryMsg += day + "<br/>(" + date + " " + month + " " + year + ")";
       return expiryMsg;
     },
@@ -80,10 +80,10 @@ export default {
 .content {
   grid-area: content;
   width: 100vw;
-  margin: 0px;
+  margin: 0;
   display: grid;
   grid-template-areas: "inner-content sidebar gutter";
-  grid-template-columns: auto 250px 280px;
+  grid-template-columns: auto 15.625em 17.5em;
 }
 .content-bg {
   background: var($main-bg-color);
@@ -97,7 +97,7 @@ export default {
 }
 .sidebar {
   grid-area: sidebar;
-  padding: 0px 15px;
+  padding: 0 0.9375em;
   margin: 0;
   text-align: center;
   overflow: hidden;
@@ -111,45 +111,45 @@ export default {
 }
 .convention-logo {
   background: url("../assets/img/table_conn_logo02.png") no-repeat;
-  width: 280px;
-  height: 98px;
+  width: 17.5em;
+  height: 6.125em;
   float: left;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  margin: 0px;
+  margin: 0;
 }
 #event-location {
   text-transform: uppercase;
   text-align: center;
   font-size: 120%;
-  margin-top: 10px;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  padding: 10px 0px;
+  margin-top: 0.625em;
+  border-top: 0.0625em solid #fff;
+  border-bottom: 0.0625em solid #fff;
+  padding: 0.625em 0;
 }
 #event-rate {
   text-decoration: line-through;
   float: left;
-  padding-top: 10px;
+  padding-top: 0.625em;
 }
 #early-bird-price {
   font-size: 440%;
   color: #ffb87a;
-  padding: 15px 0px 20px 0px;
-  margin: 15px 0px;
+  padding: 0.9375em01.25em 0;
+  margin: 0.9375em 0;
 }
 #early-bird-expire {
   text-transform: uppercase;
   color: #ffb87a;
   font-size: 75%;
 }
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   .container {
     max-width: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 62em) {
   .container {
     max-width: 100%;
   }
