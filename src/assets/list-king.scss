@@ -1,0 +1,30 @@
+#list-container {
+  background-color: black;
+  color: whitesmoke;
+  max-width: 30em;
+  min-height: 21.875em;
+  margin: 1.25em auto 1.25em auto;
+  padding: 2em 2em 3em 2em;
+}
+
+.img-header {
+  background-image: url(~@/assets/img/kinglogo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: none;
+  text-align: center;
+  text-indent: -1000%;
+  height: 4.68em;
+  line-height: 4.68em;
+  width: 7.3em;
+  margin: 0 auto 0 auto;
+  padding: 1.875em 0.625em 1.25em 0.625em;
+}
+
+.section-header {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.5em;
+  text-transform: uppercase;
+  text-shadow: 0.05em 0.05em $secondary;
+}
