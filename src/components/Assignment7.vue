@@ -12,7 +12,7 @@
           id="inputText"
           v-model="inputText"
           class="input-text"
-          maxlength="50"
+          maxlength="30"
         />
       </div>
     </form>

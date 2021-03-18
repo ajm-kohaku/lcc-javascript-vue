@@ -1,10 +1,16 @@
+$blue-grey: #8AA1B1;
+$brown: #584f4d;
+$white: whitesmoke;
+$grey: #999;
+
+
 #list-container {
   background-color: black;
-  color: whitesmoke;
+  color: $white;
   max-width: 30em;
   min-height: 21.875em;
   margin: 1.25em auto 1.25em auto;
-  padding: 2em 2em 3em 2em;
+  padding: 2em .25em;
 }
 
 .img-header {
