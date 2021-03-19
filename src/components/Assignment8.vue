@@ -6,10 +6,10 @@
     </h2>
     <ul class="custom-list">
       <list-item
-        class="custom-list-item"
         v-for="(game, index) in gameList"
         :key="index"
-        v-text="game"
+        :itemText="game"
+        @isDelete="toDelete"
       ></list-item>
     </ul>
     <form
@@ -56,7 +56,15 @@ export default {
     },
     populateList() {
       let item = this.$refs.addText.value;
-      this.delay(item, 1);
+      if (item.length > 0) {
+        this.delay(item, 1);
+        this.$refs.addText.value = "";
+      }
+    },
+    toDelete(val) {
+      this.gameList = this.gameList.filter((el) => el != val);
+      console.log(val)
+      console.log(this.gameList)
     },
   },
   mounted() {
@@ -75,11 +83,11 @@ export default {
 .section-header span {
   background-color: $white;
   color: black;
-  border-radius: 50%;
+  border-radius: 1.5em;
   display: inline-block;
   font-size: 0.75em;
-  width: 1.25em;
-  height: 1.25em;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 #add-game-form {
@@ -94,7 +102,7 @@ export default {
   padding: 0.15em 1em;
   border: 1px solid $grey;
   border-radius: 8px;
-  margin: 0.05em 0 0 .35em;
+  margin: 0.05em 0 0 0.35em;
 }
 
 .game-button {
