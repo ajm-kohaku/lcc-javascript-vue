@@ -104,6 +104,15 @@
           we might have been trying to accomplish here. It looks like we started
           using jquery here and learned how to delegate events in jquery. I'm
           not writing jquery on this site, so I'm doing the vuejs equivalent.
+          <p>
+            I created a component for the list items and used v-for to display
+            the array of components. Instead of using jquery's animate function,
+            I used css keyframes. What triggers deleting the list item was also
+            changed. Now, you have to click the trashcan in order to delete the
+            game from the list. Since the trashcan is inside of a component, I
+            used emit to trigger the list item should be deleted. Also, I used
+            the html code instead of a background image for the trashcan.
+          </p>
         </div>
       </li>
       <li>

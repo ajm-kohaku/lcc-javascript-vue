@@ -43,6 +43,11 @@
               ><span>Assignment 7</span>
             </router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/assignment-8"
+              ><span>Assignment 8</span>
+            </router-link>
+          </li>
         </ul>
       </div>
     </nav>
