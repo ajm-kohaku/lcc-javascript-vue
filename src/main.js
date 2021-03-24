@@ -16,6 +16,9 @@ import Assignment6 from './components/Assignment6'
 import Assignment7 from './components/Assignment7'
 import Assignment8 from './components/Assignment8'
 import Assignment9 from './components/Assignment9'
+import Assignment9LocalStorage from './components/Assignment9LocalStorage'
+import Assignment9PhotoViewer from './components/Assignment9PhotoViewer'
+import Assignment9Submission from './components/Assignment9Submission'
 import Assignment10 from './components/Assignment10'
 
 Vue.use(VueRouter, Bootstrap, Jquery, Popper)
@@ -72,6 +75,21 @@ const router = new VueRouter({
       path: '/assignment-9',
       name: 'Assignment9',
       component: Assignment9
+    },
+    {
+      path: '/assgmt-9-local-storage',
+      name: 'assgmt-9-local-storage',
+      component: Assignment9LocalStorage
+    },
+    {
+      path: '/assgmt-9-photo-viewer',
+      name: 'assgmt-9-photo-viewer',
+      component: Assignment9PhotoViewer
+    },
+    {
+      path: '/assgmt-9-submission',
+      name: 'assgmt-9-submission',
+      component: Assignment9Submission
     },
     {
       path: '/assignment-10',
