@@ -84,7 +84,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 label {
   color: black !important;
 }
