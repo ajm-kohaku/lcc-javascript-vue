@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Using Conditionals</h2>
-    <form v-on:submit.prevent="validateForm()" class="row g-3">
+    <form v-on:submit="validateForm()" class="row g-3">
       <div class="form-check form-check-inline">
         <label class="col-form-label mr-2 ml-3" for="grade-input"
           >Enter a grade value between 0 and 100</label
