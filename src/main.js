@@ -82,7 +82,7 @@ const router = new VueRouter({
       component: Assignment9LocalStorage
     },
     {
-      path: '/lcc-javascript-vue/assgmt-9-photo-viewer',
+      path: '/assgmt-9-photo-viewer',
       name: 'assgmt-9-photo-viewer',
       component: Assignment9PhotoViewer
     },
