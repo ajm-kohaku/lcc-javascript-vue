@@ -32,7 +32,7 @@ export default {
           id: 3,
           header: "Photo Viewer Example",
           message:
-            "The next mini exercise is to demonstrate a photo viewer. Please go to the photo viewer example to view it.",
+            "The next mini exercise is to demonstrate a <em><a href=\"assgmt-9-photo-viewer\">photo viewer</a></em>. Please go to the photo viewer example to view it.",
         },
       ],
     };

@@ -118,8 +118,30 @@
       <li>
         <h4>Assignment 9</h4>
         <div>
-          This assignment is in two parts. Part one is creating an accordion.
-          Part two creates a modal.
+          This was a rather interesting assignment. It was broken down into
+          three distinct pieces. 1st, create an accordion style list. 2nd,
+          create a way to add data to a .json file. The finished product of
+          this, however, only creates a basic form that goes no where... because
+          the internet yo. And lastly, create a photo viewer. I had the most fun
+          with this last exercise.
+          <p>
+            Part 1 displays when the main assignment page is loaded. For this
+            one, I created an accordion component that I reused for each example
+            text.
+          </p>
+          <p>
+            Part 2 clicks off the "Local Storage Example". That's just a very
+            basic form, with no validation that takes you to a "Thank You" page.
+          </p>
+          <p>
+            Part 3 loads 3 images with two sizes; a square thumbnail, and the
+            full image. I used a mouseover event to trigger the larger view to
+            change using 2 way bindings. The assignment also calls for creating
+            a modal so I used bootstrap to create a modal with an even larger
+            version of the image. I did a bit of sass manipulation to override
+            the default modal max width. It's not perfect but it gets the point
+            across.
+          </p>
         </div>
       </li>
       <li>

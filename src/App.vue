@@ -48,6 +48,11 @@
               ><span>Assignment 8</span>
             </router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/assignment-9"
+              ><span>Assignment 9</span>
+            </router-link>
+          </li>
         </ul>
       </div>
     </nav>
