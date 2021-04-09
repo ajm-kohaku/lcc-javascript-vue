@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="photo-viewer">
     <section>
       <h1>Welcome to the Basic Photo Viewer</h1>
       <!-- <photo-showcase :imagePath="largeImage" :largeAltText="largeAltText" /> -->

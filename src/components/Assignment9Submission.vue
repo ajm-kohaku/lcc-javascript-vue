@@ -2,7 +2,7 @@
   <div>
     <h1 class="head-response">Thank You!</h1>
     <div class="message">Your fake submission has been fake recorded (づ｡◕‿‿◕｡)づ</div>
-    <a href="/assgmt-9-local-storage" class="btn btn-primary">Return</a>
+    <button class="btn btn-primary" @click="$emit('return')">Return</button>
   </div>
 </template>
 
@@ -13,7 +13,8 @@ export default {
     return {
       
     }
-  }
+  },
+  emits: ['return']
 }
 </script> 
 
