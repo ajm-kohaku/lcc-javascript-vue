@@ -68,22 +68,22 @@ export default {
   },
   data() {
     return {
-      largeImage: require("./../assets/img/sakura_in_the_city.png"),
-      largeAltText: "",
+      largeImage: "https://live.staticflickr.com/65535/51105421957_dba6e241c3_h.jpg",
+      largeAltText: "Sakura in the City",
       photos: [
         {
-          smallPath: require("../assets/img/sakura_in_the_city_small.jpg"),
-          largePath: require("./../assets/img/sakura_in_the_city.png"),
+          smallPath: "https://live.staticflickr.com/65535/51106770710_3a13497af4_o.jpg",
+          largePath: "https://live.staticflickr.com/65535/51105421957_dba6e241c3_h.jpg",
           altText: "Sakura in the City",
         },
         {
-          smallPath: require("../assets/img/flowering_tree_small.jpg"),
-          largePath: require("../assets/img/flowering_tree.png"),
+          smallPath: "https://live.staticflickr.com/65535/51105421962_a0d6141d35_o.jpg",
+          largePath: "https://live.staticflickr.com/65535/51105995126_2354fa0c90_o.png",
           altText: "Flowering Tree",
         },
         {
-          smallPath: require("../assets/img/seoul_mural_small.jpg"),
-          largePath: require("../assets/img/seoul_mural.png"),
+          smallPath: "https://live.staticflickr.com/65535/51105735879_0677d4a2a5_o.jpg",
+          largePath: "https://live.staticflickr.com/65535/51105995071_cb8a0b287f_o.png",
           altText: "Seoul Mural",
         },
       ],
