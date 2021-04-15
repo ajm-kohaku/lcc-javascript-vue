@@ -147,9 +147,9 @@
       <li>
         <h4>Assignment 10</h4>
         <div>
-          The last assignment created a form. It didn't have to go anywhere. For
-          this, I'll use bootstrap's form validation techniques. It still
-          doesn't go anywhere though.
+          The last assignment created a form with validation. It didn't have to
+          go anywhere. For this, I used bootstraps validation classes and
+          vuejs's ref attribute to toggle validation classes.
         </div>
       </li>
     </ul>
@@ -158,6 +158,6 @@
 
 <script>
 export default {
-  name: "Home",
-};
+  name: 'Home',
+}
 </script>
