@@ -1,6 +1,10 @@
 <template>
   <div>
     <nav class="site-nav navbar navbar-expand-md">
+      <a class="navbar-brand title" href="https://kohaku.me">
+        <img src="https://kohaku.me/profile.jpg" />
+        Kohaku's Journey
+      </a>
       <div class="collapse navbar-collapse" id="navbar-content">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -67,15 +71,15 @@
 
 <script>
 export default {
-  name: "App",
-};
+  name: 'App',
+}
 </script>
 
 <style lang="scss">
-@import "~bootstrap/scss/bootstrap.scss";
+@import '~bootstrap/scss/bootstrap.scss';
 
 body {
-  background-image: url("./assets/img/mtg_selesnya_bg.png");
+  background-image: url('./assets/img/mtg_selesnya_bg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -95,7 +99,23 @@ body {
   color: $primary-accent;
 }
 
-.app-page-link, .page-link:visited {
+.title img {
+  max-width: 3rem;
+  max-height: 3rem;
+  border: 0.15rem solid hsla(245, 70%, 50%, 0.2);
+  background-color: gray;
+  border-radius: 50%;
+  margin-right: .15em;
+}
+
+.title {
+  font-family: "Aclonica", sans-serif;
+  font-size: 1.25em;
+  color: $main-bg-color;
+}
+
+.app-page-link,
+.page-link:visited {
   color: $secondary-accent;
   font-style: italic;
   text-decoration: none;
@@ -105,5 +125,4 @@ body {
   color: $primary-color;
   text-decoration: none;
 }
-
 </style>

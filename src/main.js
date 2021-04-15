@@ -24,7 +24,6 @@ import Assignment10 from './components/Assignment10'
 Vue.use(VueRouter, Bootstrap, Jquery, Popper)
 
 const router = new VueRouter({
-  mode: 'history',
   routes: [
     {
       path: '*',
